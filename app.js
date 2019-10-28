@@ -1,8 +1,8 @@
 App({
-    // AUTHORIZATION_URL:'http://60.190.254.12:19003/dd_demo/authLogin/url',
-    // AUTHORIZATION_RESULT_URL:'http://60.190.254.12:19003/dd_demo/authLogin/result',
-    AUTHORIZATION_URL:'http://127.0.0.1:8080/dd_demo/authLogin/url',
-    AUTHORIZATION_RESULT_URL:'http://127.0.0.1:8080/dd_demo/authLogin/result',
+    AUTHORIZATION_URL:'http://60.190.254.12:9003/dd_demo/authLogin/url',
+    AUTHORIZATION_RESULT_URL:'http://60.190.254.12:9003/dd_demo/authLogin/result',
+    // AUTHORIZATION_URL:'http://127.0.0.1:8080/dd_demo/authLogin/url',
+    // AUTHORIZATION_RESULT_URL:'http://127.0.0.1:8080/dd_demo/authLogin/result',
   onLaunch(options) {
 
   },
