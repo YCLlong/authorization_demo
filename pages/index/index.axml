@@ -1,0 +1,17 @@
+<view>
+    <text>
+        =========对接前提=========
+
+        和ZJCA建立合作关系，得到appCode和appKey，并要求ZJCA开通授权登录功能。
+
+        =========应用过程=========
+
+        1,应用方给用户提供一个授权登录的的入口，用户操作之后需要应用方的小程序后台访问ZJCA提供的【应用方登录接口】，得到认证token【tokenA】。给小程序返回ZJCA授权页面地址，地址中需要带有【tokenA】
+
+        2,应用方小程序ZJCA授权页面的url后，跳转到一个有webView组件的小程序界面【界面A】，webView界面加载时访问【ZJCA授权登录网址】，并带上需要的参数，这个参数中就有认证token。例如（http://192.168.110.150:8080/sp/index.html?token=xxx）。这个有webView的小程序界面在demo中的地址是（/pages/auth/auth）
+        
+        3,后继操作是用户在ZJCA页面上的授权过程的操作，等用户授权完成，ZJCA授权界面会回调应用方的小程序【界面A】中的【zjcaAuthResult方法】，demo中有该方法的详细说名，应用方拿到用户操作结果做自己的业务逻辑和控制小程序的页面跳转
+        \n\n
+    </text>
+    <button size="default" type="primary" onTap="authLogin">ZJCA云证书授权</button>
+</view>

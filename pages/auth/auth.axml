@@ -1,0 +1,5 @@
+<view>
+  <web-view src="{{zjcaAuthPage}}" onMessage="zjcaAuthResult"/>
+  <!-- <web-view src="https://appx/web-view.min.js" onMessage="zjcaAuthResult"/> -->
+
+</view>

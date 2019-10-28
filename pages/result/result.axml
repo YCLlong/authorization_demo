@@ -1,0 +1,9 @@
+<view>
+    <text style="font-size:24px;color:green">用户授权成功\n\n</text>
+    <text>
+        证书名称：{{authResult.name}} \n
+        证书序列号:{{authResult.sn}} \n
+        CSN:{{authResult.csn}}\n
+    </text>
+
+</view>

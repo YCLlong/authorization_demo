@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/auth/auth",
+    "pages/result/result"
+  ],
+  "window": {
+    "defaultTitle": "云证书授权Demo"
+  }
+}
