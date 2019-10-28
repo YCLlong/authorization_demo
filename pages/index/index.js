@@ -36,6 +36,7 @@ Page({
             type: 'exception',
             content: msg,
             duration: 3000,
+            
         });
     }
 });
